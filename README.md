@@ -2,16 +2,14 @@ Modelling Materials with Density Functional Theory
 ==================================================
 
 ## Introduction
-This is the lab material for the Imperial College London, Department of
-Materials course "MSE404: Modelling Materials with Density Functional
-Theory".
+This is the computer lab material for the course "Modelling Materials with Density Functional
+Theory" taught in the Department of Materials at Imperial College London.
 
-This course is intended to introduce students to the modelling of materials
+This course will introduce students to the modelling of materials
 with density-functional theory (DFT). In the labs we will use the free,
-open-source DFT code [Quantum Espresso](http://www.quantum-espresso.org/), but
-while the format of the input files may change in other DFT codes, the general
-principles will be the same. The labs will also briefly introduce student to
-the use of the Linux OS and how it enables the effective use of computational
+open-source DFT code [Quantum Espresso](http://www.quantum-espresso.org/). While the format of the input files may be differeint in other DFT codes, the general
+principles will be the same. The labs will also briefly introduce students to
+the use of the Linux operating system and how it enables the effective use of computational
 resources, as well as showing students some simple scripting, analysis, and
 visualization tools.
 
@@ -29,32 +27,33 @@ visualization tools.
 
 The labs are organised as follows:
 
-- [Lab 1: Getting started in Linux](labs/lab01/readme.md)
-- [Lab 2: Quantum Espresso Input and Output](labs/lab02/readme.md)
-- [Lab 3: Converging your Calculations](labs/lab03/readme.md)
-- [Lab 4: The Electronic Band Structure and Density of States](labs/lab04/readme.md)
-- [Lab 5: Forces, Stresses and Structures](labs/lab05/readme.md)
-- [Lab 6: Vibrational Frequencies and Normal Modes](labs/lab06/readme.md)
-- [Lab 7: Finite Temperature Properties](labs/lab07/readme.md)
-- [Lab 8: Spin Polarization and Magnetic Systems](labs/lab08/readme.md)
-- [Lab 9: Optical Properties and Time-Dependent Density Functional Theory](labs/lab09/readme.md) 
+- [Lab 1: Getting started in Linux](docs/labs/lab01/readme.md)
+- [Lab 2: Quantum Espresso Input and Output](docs/labs/lab02/readme.md)
+- [Lab 3: Converging your Calculations](docs/labs/lab03/readme.md)
+- [Lab 4: The Electronic Band Structure and Density of States](docs/labs/lab04/readme.md)
+- [Lab 5: Metals and Density of States](docs/labs/lab05/readme.md)
+- [Lab 6: Spin Polarization and Magnetic Systems](docs/labs/lab06/readme.md)
+- [Lab 7: Structural Optimisation](docs/labs/lab07/readme.md)
+- [Lab 8: Vibrational Normal Modes and Phonons](docs/labs/lab08/readme.md)
+- [Lab 9: Finite Temperature Properties](docs/labs/lab09/readme.md)
 
 Additional Material:
 
 - [Calculating Useful Properties from Total
-  Energies](labs/extras/labs/using_total_energies/readme.md)
-- [Examining the Charge Density and Wavefunction](labs/extras/labs/visualising_output/readme.md)
-- [The Hydrogen Atom and Electron Spin](labs/extras/labs/hydrogen_atom/readme.md)
-- [The Tetrahedron Method for Densities of States](labs/extras/labs/tetrahedron_method/readme.md)
-- [Optical Properties and Time-Dependent Density Functional Theory](labs/extras/labs/tddft/readme.md)
+  Energies](docs/labs/extras/labs/using_total_energies/readme.md)
+- [Examining the Charge Density and Wavefunction](docs/labs/extras/labs/visualising_output/readme.md)
+- [The Hydrogen Atom and Electron Spin](docs/labs/extras/labs/hydrogen_atom/readme.md)
+- [The Tetrahedron Method for Densities of States](docs/labs/extras/labs/tetrahedron_method/readme.md)
+- [Optical Properties and Time-Dependent Density Functional Theory](docs/labs/extras/labs/tddft/readme.md)
+- [Charged system and excited states](docs/labs/extras/labs/charged_system/readme.md) 
 
 Extras:
 
-- [Setting up a virtual machine](labs/extras/misc/vmsetup/readme.md)
-- [More Useful Linux Commands](labs/extras/misc/linuxcommands/readme.md)
-- [Plotting with Gnuplot](labs/extras/misc/gnuplot/readme.md)
-- [Bash and Shell Scripting](labs/extras/misc/shellscripting/readme.md)
-- [Running in Parallel](labs/extras/labs/running_in_parallel/readme.md)
+- [Setting up a virtual machine](docs/labs/extras/misc/vmsetup/readme.md)
+- [More Useful Linux Commands](docs/labs/extras/misc/linuxcommands/readme.md)
+- [Plotting with Gnuplot](docs/labs/extras/misc/gnuplot/readme.md)
+- [Bash and Shell Scripting](docs/labs/extras/misc/shellscripting/readme.md)
+- [Running in Parallel](docs/labs/extras/labs/running_in_parallel/readme.md)
 
 ## How to Use this Material
 
@@ -77,18 +76,16 @@ echo "Hello World"
 which are meant to be run in the terminal. And you can click the 
 :material-content-copy: icon on the right to copy the code to your clipboard.
 
-There will also be inline annotations (:material-plus-circle:) like the one 
+There will also be inline annotations (⊕) like the one 
 below:
 
 ```fortran
-program hello
-    print *, "Hello World" !(1)
+program
+    print *, "Hello World" ⊕
 end program hello
 ```
-
-1. Print the string "Hello World" to the terminal.
-
-You can click on the annotation to see the explanation.
+If you click the ⊕ button, a pop up window will show up (this only works in the 
+web page).
 
 There will also be admonitions like the one below:
 
@@ -108,6 +105,6 @@ marked as admonitions like the one below:
 
 ## Acknowledgements
 - Original materials provided by Éamonn Murray (https://gitlab.com/eamonnmurray/MaterialsModelling)
-- Contributors: Simao Joao, Christopher Chung, Jordan Edwards, Chengcheng Xiao, Indrajit Maity, Valerio Vitale, Laura Ratcliff and Johannes Lischner.
+- Contributors: Simão João, Christopher Cheung, Jordan Edwards, Chengcheng Xiao, Indrajit Maity, Valerio Vitale, Laura Ratcliff and Johannes Lischner.
 - Webpage refreshed by Chengcheng Xiao, 2024.
 
